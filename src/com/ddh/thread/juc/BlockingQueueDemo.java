@@ -8,7 +8,10 @@ import java.util.concurrent.TimeUnit;
 public class BlockingQueueDemo {
     public static void main(String[] args) throws InterruptedException {
 //         test1();
-        test４();
+//        test４();
+        for (int i = 0; i < 1000000_00; i++) {
+            System.out.println(i);
+        }
     }
 
     /**

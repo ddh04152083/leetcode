@@ -1,7 +1,5 @@
 package com.ddh.annotation;
 
-import java.lang.reflect.InvocationTargetException;
-
 public class ReflectTest {
 
     @Reflect(name = "ddh")
