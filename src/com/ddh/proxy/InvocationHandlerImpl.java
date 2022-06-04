@@ -16,7 +16,7 @@ public class InvocationHandlerImpl implements InvocationHandler {
 
         Object result;
 
-        System.out.println("动态代理开启事务");
+        System.out.println("动态代理开启  事务");
         result = method.invoke(target, args);
         System.out.println("动态代理关闭事务");
         return result;
